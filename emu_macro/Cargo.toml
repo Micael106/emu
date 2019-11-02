@@ -17,7 +17,7 @@ edition = "2018"
 [dependencies]
 proc-macro2 = "0.4.30"
 syn = { version = "1.0.5", features = ["full", "visit", "fold"] }
-quote = "1.0.2"
+quote = "0.6.0"
 
 [dev-dependencies]
 em = { path = "../em", version = "0.*" }
